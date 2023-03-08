@@ -1,0 +1,14 @@
+PseudoCode:
+
+void func(vector<int> vec) {
+	sort(vec.begin(), vec.end());
+	int sum = 0;
+	for (auto i : vec) {
+		sum += i;
+		cout << vec << " ";
+	}
+	cout << endl;
+	cout << sum/vec.size();
+}
+
+

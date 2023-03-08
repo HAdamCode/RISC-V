@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Bugs.dir/objects.a
+C:\mingw64\mingw64\bin\ar.exe cr CMakeFiles\Bugs.dir/objects.a @CMakeFiles\Bugs.dir\objects1.rsp
+C:\mingw64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Bugs.dir/objects.a -Wl,--no-whole-archive  -o Bugs.exe -Wl,--out-implib,libBugs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Bugs.dir\linklibs.rsp

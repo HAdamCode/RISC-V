@@ -1,0 +1,25 @@
+1) Just myself: Hunter Adam
+
+2) 2.5 hours
+
+3) No help needed
+
+4) I made sure to read the instructions multiple times.
+	I also made an effort to test all edge cases
+	mostly focused on the zeros and how they 
+	might break my code.
+
+5) I do not have any issues that I have seen with my code yet
+	I do wish it was slightly more complex.
+
+6) I am most pleased with two aspects of the code. 
+
+	This first is that instead of just using mul
+	in my rectangle function, I instead used a for
+	loop to add up the first number, second number of
+	times.
+
+	The second is that I ended up multiplying 3.14
+	by 100 and my r^2 by 100 to get rid of decimals 
+	and keep more precision. This will also hopefully
+	confuse the people looking at the code. 

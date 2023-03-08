@@ -1,0 +1,33 @@
+Debrief:
+
+1) Hunter Adam 4/9/2022
+	Mason Harless 4/9/2022
+
+2) First we ran the program to see where the code threw errors
+	which is how we found most of the errors. The last two
+	errors were found by running the code step by step
+	to see where the numbers were getting lost. One of the
+	bugs was an endless loop so we went through and found
+	the iterator to make sure it was being updated. Another
+	was missing a return address which was the easiest and
+	first mistake we found.
+
+3) PseudoCode:
+
+void func(vector<int> vec) {
+	sort(vec.begin(), vec.end());
+	int sum = 0;
+	for (auto i : vec) {
+		sum += i;
+		cout << vec << " ";
+	}
+	cout << endl;
+	cout << sum/vec.size();
+}
+
+4) We spent about 1.5 hours
+
+5) We did not seek out any help
+
+6) We were pleased with how quickly we were able to solve all the
+	bugs. This was a really fun challenge.
